@@ -1,0 +1,91 @@
+.cards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    /*background-color: var(--coloruno);*/
+    width: 15%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 3);
+    margin-top: 2.5%;
+    background-color: var(--colorcinco);
+}
+.img_card {
+    width: 90%;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.img_producto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.footer_card {
+    display: flex;
+    justify-content:space-evenly;
+    font-size: x-large;
+    color: var(--colorcinco);
+    margin-bottom: 0.625rem;
+}
+.title {
+    margin: 0.625rem;
+}
+.btncard {
+    background-color: var(--colordos);
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .cards{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .card {
+        /*background-color: var(--coloruno);*/
+        width: 45%;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 3);
+        margin-top: 2.5%;
+        background-color: var(--colorcinco);
+    }
+    .img_card {
+        width: 90%;
+        margin: auto;
+        margin-top: 0.625rem;
+    }
+    .img_producto {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .footer_card {
+        display: flex;
+        justify-content:space-evenly;
+        font-size: x-large;
+        color: var(--colorcinco);
+        margin-bottom: 0.625rem;
+    }
+    .title {
+        margin: 0.625rem;
+    }
+    .btncard {
+        background-color: var(--colordos);
+        width: 30%;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 4px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 0%;
+    justify-content:space-evenly;
+    background-color: var(--coloruno);
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    nav {
+        background-color: var(--coloruno);
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .login {
+        margin-right: 20px;
+    }
+}

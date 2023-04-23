@@ -1,0 +1,57 @@
+.call_action {
+    position: absolute;
+    width: 90%;
+    top: 30%;
+    margin-left: 10%;
+}
+.call_action h1 {
+    font-size: 3.125rem;
+    font-family: var(--fuenteprincipal);
+    color: var(--colorcinco);
+}
+.btn_callaction {
+    background-color: var(--coloruno);
+    position: absolute;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+}
+.btn_callaction, a {
+    font-family: var(--fuenteprincipal);
+    font-weight: bolder;
+    font-size: 1.875rem;
+    color: var(--colorcinco);
+    align-items: center;
+    margin: auto;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .call_action {
+        position: absolute;
+        width: 90%;
+        top: 20%;
+        margin-left: 5%;
+    }
+    .call_action h1 {
+        font-size: 3.125rem;
+        font-family: var(--fuenteprincipal);
+        color: var(--colorcinco);
+    }
+    .btn_callaction {
+        background-color: var(--coloruno);
+        position: absolute;
+        width: 50%;
+        height: 3.125rem;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .btn_callaction, a {
+        font-family: var(--fuenteprincipal);
+        font-weight: bolder;
+        font-size: 1.875rem;
+        color: var(--colorcinco);
+    }
+}

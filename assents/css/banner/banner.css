@@ -1,0 +1,96 @@
+.banner {
+    position: relative;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5%;
+    justify-content:space-evenly;
+}
+.menu {
+    /*background-color: var(--coloruno);*/
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.items {
+    margin: 10px;
+    margin: auto;
+    color: var(--colorcinco);
+    font-family: var(--fuenteterciaria);
+    font-size: 20px; 
+}
+.login {
+    margin-top: 2.5%;
+}
+#log_admin {
+    font-size: larger;
+    color: var(--colorcinco);
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .banner {
+        position: relative;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+        justify-content:space-around;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 5.625rem;
+        background-color: var(--coloruno);
+        width: 110%;
+        height: 4400px;
+        z-index: 1;
+        opacity: .98;
+        transform: translateY(-110%);
+        top: 0px;
+    }
+    .items {
+        margin: 10px;
+        text-align: center;
+    }
+    .items:nth-child(1) {
+        margin-top: 90px;
+    }
+    .toggle {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5%;
+        align-content: center;
+        cursor: pointer;
+    }
+    .togg {
+        width: 3.125rem;
+        height: 0.313rem;
+        background-color: var(--colorcinco);
+        border-radius: 2px;
+        margin: 2px;
+        
+    }
+    .close, .items {
+        transform: rotate(45deg) translate(-4px, -5px);
+    }
+    .close, .items:nth-child(2) {
+        display: none;
+    }
+    .close, .items:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+    .open {
+        transform: translateX(0)
+    }
+    .login {
+        margin-top: 2.5%;
+    }
+    #log_admin {
+        font-size: medium;
+        margin-left: 55%;
+    }
+}
+

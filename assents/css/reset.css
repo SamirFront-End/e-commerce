@@ -1,0 +1,52 @@
+:root {
+    /*>>> VARIABLES DE COLOR <<<*/
+    --coloruno: #FBC16B;
+    --colordos: #985C39;
+    --colortres: #FF7412;
+    --colorcuatro: #130100;
+    --colorcinco: #FFFFFF;
+    /*>>> VARIABLES DE FUENTE <<<*/
+    --fuenteprincipal: 'Josefin Sans', sans-serif;
+    --fuentesecundaria: 'Sofia Sans Condensed', sans-serif;
+    --fuenteterciaria: 'Khand', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: var(--colorcinco);
+}
+#header_index {
+    display: flex;
+    background-image: url(../images/bannerimg/bannerena.jpg);
+    background-size:cover;
+    height: 600px;
+}
+h2 {
+    font-family: var(--fuenteterciaria);
+    font-size:xx-large;
+    text-align: center;
+}
+h3 {
+    font-family: var(--fuenteprincipal);
+    font-size:x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+section {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.more {
+    width: 20%;
+    margin-left: 1075px;
+    padding: auto;
+    color: var(--colorcuatro);
+    font-size: medium;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .more {
+        display: none;
+    }
+}

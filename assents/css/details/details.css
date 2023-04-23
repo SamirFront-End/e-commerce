@@ -1,0 +1,107 @@
+.container_details {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.25rem;
+}
+.img_details {
+    margin: auto;
+}
+.details_producto {
+    width: 100%;
+    height: auto;
+    border-radius: 0.625rem;
+    margin: auto;
+}
+.description_details {
+    background-color: var(--coloruno);
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    margin-top: 25%;
+    
+}
+.description_details h1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 1.25rem;
+    font-family: var(--fuenteprincipal);
+    font-size: 3.125rem;
+    font-weight: bolder;
+    color: var(--colordos);
+}
+.description_details h2 {
+    width: 90%;
+    text-align: start;
+    margin: auto;
+    color: var(--colordos);
+}
+.description_details p {
+    width: 90%;
+    margin: auto;
+    font-size: larger;
+    font-family: var(--fuentesecundaria);
+    font-weight: bolder;
+    text-align: justify;
+    color: var(--colordos);
+}
+.btn_details {
+    width: 40%;
+    margin: auto;
+    background-color: var(--colordos);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2.5%;
+    color: var(--colorcinco);
+    font-family: var(--fuenteprincipal);
+    font-size: x-large;
+    text-align: center;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .container_details {
+        /*background-color:blueviolet;*/
+        display: flex;
+        flex-direction: column;
+    }
+    .img_details {
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .details_producto {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .description_details {
+        width: 90%;
+        background-color: var(--coloruno);
+        margin: auto;
+        margin-bottom: 40px;
+        text-align: center;
+        color: var(--colordos);
+    }
+    .description_details p {
+        width: 90%;
+        margin: auto;
+        font-size: larger;
+        font-family: var(--fuentesecundaria);
+        text-align: justify;
+    }
+    .btn_details {
+        width: 40%;
+        margin: auto;
+        background-color: var(--colordos);
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 1%;
+        color: var(--colorcinco);
+        font-family: var(--fuenteprincipal);
+        font-size:larger;
+    }
+}

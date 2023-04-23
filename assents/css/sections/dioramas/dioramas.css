@@ -1,0 +1,20 @@
+.dioramas {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.125rem;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width:768px) {
+    .dioramas {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.125rem;
+        margin-bottom: 3.125rem;
+    }
+}

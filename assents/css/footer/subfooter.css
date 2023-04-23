@@ -1,0 +1,49 @@
+.subfooter {
+    background-color: var(--colordos);
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.author {
+    text-align: center;
+    color: var(--colorcinco);
+    font-family: var(--fuentesecundaria);
+}
+.networks {
+    text-align: center;
+    color: var(--colorcinco);
+    font-family: var(--fuentesecundaria);
+}
+.fa-brands {
+    margin: 0.188rem;
+}
+.icon_link {
+    font-size: larger;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .subfooter {
+        background-color: var(--colordos);
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .author {
+        text-align: center;
+        color: var(--colorcinco);
+        font-family: var(--fuentesecundaria);
+    }
+    .networks {
+        text-align: center;
+        color: var(--colorcinco);
+        font-family: var(--fuentesecundaria);
+    }
+    .fa-brands {
+        margin: 0.188rem;
+    }
+    .icon_link {
+        font-size: larger;
+    }
+}

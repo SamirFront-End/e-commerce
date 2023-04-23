@@ -1,0 +1,116 @@
+.form {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+legend {
+    margin-left: 2%;
+    font-size: x-large;
+}
+fieldset {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    border-color: var(--colordos);
+    border-radius: 5px;
+    font-family: var(--fuenteterciaria);
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--colordos);
+}
+.input_data {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2px;
+}
+.input_data, input {
+    border: none;
+    border-radius: 2px;
+    padding: 0.625rem;
+}
+#lblmensage {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 0.5%;
+}
+textarea {
+    width: 95%;
+    margin: auto;
+    border: none;
+}
+#btnsubmit {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.625rem;
+    border: none;
+    background-color: var(--colordos);
+    color: var(--colorcinco);
+    font-family: var(--fuenteprincipal);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .form {
+        width: 90%;
+        margin: auto;
+    }
+    legend {
+        margin-left: 2%;
+        font-size: x-large;
+    }
+    fieldset {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        border-color: var(--colordos);
+        border-radius: 5px;
+        font-family: var(--fuenteterciaria);
+        font-size: larger;
+        font-weight: bolder;
+        color: var(--colordos);
+    }
+    .input_data {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0.625rem;
+    }
+    .input_data, input {
+        border: none;
+        border-radius: 2px;
+        padding: 0.625rem;
+    }
+    #lblmensage {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 0.5%;
+    }
+    textarea {
+        width: 95%;
+        margin: auto;
+        border: none;
+    }
+    #btnsubmit {
+        width: 50%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 0.625rem;
+        border: none;
+        background-color: var(--colordos);
+        color: var(--colorcinco);
+        font-family: var(--fuenteprincipal);
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
