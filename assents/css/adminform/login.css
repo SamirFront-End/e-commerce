@@ -1,0 +1,68 @@
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background-color: var(--coloruno);
+    box-shadow: 1px 1px 20px 1px black;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+.frmlog {
+    font-family: var(--fuenteterciaria);
+    margin-top: 2%;
+    color: var(--colordos);
+}
+.input_log {
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 1.5% 0%;
+}
+.input_logbtn {
+    width: 50%;
+    margin: 3% 25%;
+    background-color: var(--colordos);
+    font-family: var(--fuenteprincipal);
+    font-size: larger;
+    color: var(--colorcinco);
+    padding: 1.5% 0%;
+    cursor: pointer;
+}
+
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .log {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        background-color: var(--coloruno);
+        box-shadow: 1px 1px 20px 1px black;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    .frmlog {
+        font-family: var(--fuenteterciaria);
+        margin-top: 2%;
+        color: var(--colordos);
+    }
+    .input_log {
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+        padding: 3% 0%;
+    }
+    .input_logbtn {
+        width: 50%;
+        margin: 3% 25%;
+        background-color: var(--colordos);
+        font-family: var(--fuenteprincipal);
+        font-size: larger;
+        color: var(--colorcinco);
+        padding: 3% 0%;
+        cursor: pointer;
+    }
+}

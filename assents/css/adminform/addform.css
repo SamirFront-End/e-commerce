@@ -1,0 +1,70 @@
+.add {
+    background-color: var(--coloruno);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 1px 20px 1px black;
+}
+.input_ {
+    width: 90%;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.input_txtarea {
+    width: 94%;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.input_btn {
+    background-color: var(--colordos);
+    width: 50%;
+    margin: 2% 25% 2% 25%;
+    font-family: var(--fuenteterciaria);
+    color: var(--colorcinco);
+    font-size: larger;
+    cursor: pointer;
+}
+.frmadd {
+    margin: 5% 25% 5% 25%;
+    font-family: var(--fuenteterciaria);
+    color: var(--colordos)
+}
+
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    .add {
+        background-color: var(--coloruno);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        box-shadow: 1px 1px 20px 1px black;
+    }
+    .input_ {
+        width: 90%;
+        margin: auto;
+        margin-top: 0.625rem;
+    }
+    .input_txtarea {
+        width: 94%;
+        margin: auto;
+        margin-top: 0.625rem;
+    }
+    .input_btn {
+        background-color: var(--colordos);
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+        font-family: var(--fuenteterciaria);
+        color: var(--colorcinco);
+        font-size: larger;
+        cursor: pointer;
+    }
+    .frmadd {
+        margin: 5% 25% 5% 25%;
+        font-family: var(--fuenteterciaria);
+        color: var(--colordos)
+    }
+}
