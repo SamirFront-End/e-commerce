@@ -49,7 +49,7 @@
         z-index: 1;
         opacity: .98;
         transform: translateY(-110%);
-        top: 0px;
+        top: 90px;
     }
     .items {
         margin: 10px;
@@ -71,16 +71,18 @@
         background-color: var(--colorcinco);
         border-radius: 2px;
         margin: 2px;
-        
+        border-radius: 3px;
+        transform-origin: 5px 0px;
+        transition: all 0.3s linear;
     }
-    .close, .items {
-        transform: rotate(45deg) translate(-4px, -5px);
+    .close .togg {
+        transform: rotate(45deg) translate(-2px, -4px);
     }
-    .close, .items:nth-child(2) {
+    .close .togg:nth-child(2) {
         display: none;
     }
-    .close, .items:nth-child(3){
-        transform: rotate(-45deg) translate(-5px, 1px);
+    .close .togg:nth-child(3){
+        transform: rotate(-45deg) translate(-12px, 7px);
     }
     .open {
         transform: translateX(0)
