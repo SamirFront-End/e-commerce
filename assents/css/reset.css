@@ -5,6 +5,9 @@
     --colortres: #FF7412;
     --colorcuatro: #130100;
     --colorcinco: #FFFFFF;
+    --colorfondomaiz: #FFFFD0;
+    --colorfondogranate: #FFCCB3;
+    --colorfondonaranja: #FFD180;
     /*>>> VARIABLES DE FUENTE <<<*/
     --fuenteprincipal: 'Josefin Sans', sans-serif;
     --fuentesecundaria: 'Sofia Sans Condensed', sans-serif;
@@ -19,6 +22,10 @@ a {
     background-image: url(../images/bannerimg/bannerena.jpg);
     background-size:cover;
     height: 600px;
+}
+h1 {
+    font-family: var(--fuenteprincipal);
+    font-size: 35px;
 }
 h2 {
     font-family: var(--fuenteterciaria);
