@@ -96,6 +96,7 @@
         width: 45%;
         border-radius: 20px 20px 20px 20px;
         position: relative;
+        margin: auto;
     }
     .img_card {
         width: 100%;
@@ -179,10 +180,37 @@
         margin-left: 80px;
     }
     .body-card {
-        top: 70%;
+        top: 66%;
     }
     .p-body {
         font-size: 11px;
     }
 }
-
+@media (max-width: 550px) {
+    .card {
+        margin-top: 3%;
+    }
+    .body-card {
+        top: 60%;
+    }
+    .icons {
+        margin-top: 8px;
+    }
+    .icons:nth-child(4) {
+        margin-left: 55px;
+    }
+    .title {
+        top: 45%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 545px) {
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: 60%;
+    }
+}

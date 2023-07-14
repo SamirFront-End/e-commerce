@@ -66,3 +66,8 @@ section {
         height: 466.77px;
     }
 }
+@media (max-width: 550px) {
+    .card {
+        height: 430.77px;
+    }
+}
