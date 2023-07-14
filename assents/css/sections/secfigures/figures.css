@@ -1,5 +1,5 @@
 .figure {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -10,10 +10,11 @@
 
 @media (max-width:768px) {
     .figure {
-        width: 90%;
+        width: 100%;
         margin: auto;
         display: flex;
         flex-direction: column;
-        margin-top: 3.125rem;
+        background-color: var(--colorfondonaranja);
+        padding-bottom: 30px;
     }
 }

@@ -44,14 +44,17 @@
         background-color: var(--coloruno);
         position: absolute;
         width: 50%;
-        height: 3.125rem;
         text-align: center;
-        padding-top: 3%;
+        padding: 5px 0;
+        cursor: pointer;
     }
     .btn_callaction, a {
         font-family: var(--fuenteprincipal);
         font-weight: bolder;
         font-size: 1.875rem;
         color: var(--colorcinco);
+    }
+    .btn_callaction:hover {
+        background-color: var(--colorfondonaranja);
     }
 }

@@ -5,7 +5,7 @@
     --colortres: #FF7412;
     --colorcuatro: #130100;
     --colorcinco: #FFFFFF;
-    --colorfondomaiz: #FFFFD0;
+    --colorfondomaiz: #FFFDBF;
     --colorfondogranate: #FFCCB3;
     --colorfondonaranja: #FFD180;
     /*>>> VARIABLES DE FUENTE <<<*/
@@ -49,11 +49,20 @@ section {
     color: var(--colorcuatro);
     font-size: medium;
 }
+.card {
+    height: 644px;
+}
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
 @media (max-width: 768px) {
     .more {
         display: none;
+    }
+
+}
+@media (max-width: 600px) {
+    .card {
+        height: 466.77px;
     }
 }
