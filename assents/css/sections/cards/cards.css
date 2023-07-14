@@ -206,7 +206,7 @@
         font-size: 30px;
     }
 }
-@media (max-width: 545px) {
+@media (max-width: 504px) {
     .cards {
         flex-direction: column;
     }
