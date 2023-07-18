@@ -1,3 +1,22 @@
+.cards {
+    background-color: aqua;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    background-color: blueviolet;
+    max-width: 20%;
+    max-height: 60%;
+}
+.img_producto {
+    width: 100%;
+    position: relative;
+}
+
+/* <<<<= Diseño Responsive maximo 768px =>>>> */
 
 @media  (max-width: 768px) {
     .cards {
@@ -24,11 +43,10 @@
         color: var(--colorcinco);
         width: 95%;
         font-size: 1.563rem;
-
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     }
     .title, h1 {
         margin-left: 2%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     }
     .body-card {
         width: 95%;
@@ -60,7 +78,10 @@
         cursor: pointer;
     }
 }
-@media (max-width: 412px) {
+
+/* <<<<= Diseño responsive maximo 600px =>>>> */
+
+@media (max-width: 600px) {
     .cards {
         grid-template-columns: 90%;
     }
