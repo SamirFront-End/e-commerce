@@ -3,9 +3,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 3.125rem;
     background-color: var(--colorfondomaiz);
-    padding-bottom: 30px;
 }
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
@@ -18,6 +16,5 @@
         flex-direction: column;
         background-color: var(--colorfondomaiz);
         padding-bottom: 30px;
-    }
-    
+    } 
 }

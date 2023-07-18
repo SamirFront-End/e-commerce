@@ -3,7 +3,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 3.125rem;
+    background-color: var(--colorfondonaranja);
 }
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/

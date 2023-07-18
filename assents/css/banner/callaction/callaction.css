@@ -16,6 +16,7 @@
     height: 50px;
     text-align: center;
     display: flex;
+    cursor: pointer;
 }
 .btn_callaction, a {
     font-family: var(--fuenteprincipal);
@@ -25,6 +26,10 @@
     align-items: center;
     margin: auto;
 }
+.btn_callaction:hover {
+    background-color: var(--colorfondonaranja);
+}
+
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 

@@ -31,6 +31,8 @@ h2 {
     font-family: var(--fuenteterciaria);
     font-size:xx-large;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 h3 {
     font-family: var(--fuenteprincipal);
@@ -41,13 +43,6 @@ h3 {
 section {
     margin-top: 50px;
     margin-bottom: 25px;
-}
-.more {
-    width: 20%;
-    margin-left: 1075px;
-    padding: auto;
-    color: var(--colorcuatro);
-    font-size: medium;
 }
 .card {
     height: 644px;
@@ -61,23 +56,3 @@ section {
 #granate {
     background-color: var(--colordos);
 }
-
-/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
-
-@media (max-width: 768px) {
-    .more {
-        display: none;
-    }
-    
-
-}
-/* @media (max-width: 600px) {
-    .card {
-        height: 466.77px;
-    }
-}
-@media (max-width: 550px) {
-    .card {
-        height: 430.77px;
-    }
-} */

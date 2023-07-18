@@ -1,10 +1,9 @@
 .fountain {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 3.125rem;
-    margin-bottom: 3.125rem;
+    background-color: var(--colorfondogranate);
 }
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/

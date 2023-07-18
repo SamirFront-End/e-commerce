@@ -1,19 +1,59 @@
 .cards {
-    background-color: aqua;
     width: 95%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content:space-evenly;
+    
 }
 .card {
-    background-color: blueviolet;
-    max-width: 20%;
-    max-height: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 .img_producto {
     width: 100%;
+    border-radius: 20px;
+}
+.title {
     position: relative;
+    top: -33%;
+    color: var(--colorcinco);
+    width: 95%;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.title, h1 {
+    margin-left: 2%;
+}
+.body-card {
+    width: 95%;
+    position: relative;
+    top: -33%;
+    margin-left: 2%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.p-body {
+    text-align: start;
+    font-family: var(--fuenteterciaria);
+    font-size: 12px;
+    margin-left: 2%;
+    color: var(--colorcinco);
+}
+.footer_card {
+    position: relative;
+    top: -30%;
+    border-radius: 0 0 20px 20px;
+}
+.icon-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons {
+    color: var(--colorcuatro);
+    font-size: 30px;
+    margin: 3.2px;
+    cursor: pointer;
 }
 
 /* <<<<= Diseño Responsive maximo 768px =>>>> */
@@ -39,7 +79,7 @@
     }
     .title {
         position: relative;
-        top: -40%;
+        top: -30%;
         color: var(--colorcinco);
         width: 95%;
         font-size: 1.563rem;
@@ -51,7 +91,7 @@
     .body-card {
         width: 95%;
         position: relative;
-        top: -40%;
+        top: -30%;
         margin-left: 2%;
         /* background-color: var(--colorfondomaiz); */
         background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -65,7 +105,7 @@
     }
     .footer_card {
         position: relative;
-        top: -37%;
+        top: -28%;
         border-radius: 0 0 20px 20px;
     }
     .icon-card {
