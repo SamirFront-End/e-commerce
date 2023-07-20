@@ -4,20 +4,22 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     justify-content:space-evenly;
-    
 }
 .card {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 68%;
+    overflow: hidden;
 }
 .img_producto {
     width: 100%;
+    height: 95%;
+    object-fit: cover;
     border-radius: 20px;
 }
 .title {
     position: relative;
-    top: -33%;
+    top: -50%;
     color: var(--colorcinco);
     width: 95%;
     font-size: 20px;
@@ -29,7 +31,7 @@
 .body-card {
     width: 95%;
     position: relative;
-    top: -33%;
+    top: -50%;
     margin-left: 2%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
@@ -42,7 +44,7 @@
 }
 .footer_card {
     position: relative;
-    top: -30%;
+    top: -47.2%;
     border-radius: 0 0 20px 20px;
 }
 .icon-card {
@@ -55,6 +57,8 @@
     margin: 3.2px;
     cursor: pointer;
 }
+
+
 
 /* <<<<= Diseño Responsive maximo 768px =>>>> */
 
@@ -70,7 +74,7 @@
     .card {
         display: flex;
         flex-direction: column;
-        max-height: 100%;
+        height: 100%;
     }
     .img_producto {
         max-width: 100%;
