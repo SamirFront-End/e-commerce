@@ -74,7 +74,8 @@
     .card {
         display: flex;
         flex-direction: column;
-        height: 77%;
+        height: 73%;
+        overflow: hidden;
     }
     .img_producto {
         width: 100%;
@@ -127,11 +128,14 @@
 
 /* <<<<= Diseño responsive maximo 600px =>>>> */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .cards {
         grid-template-columns: 80%;
     }
     .card {
         height: 79%;
+    }
+    .img_producto {
+        height: 85%;
     }
 }
