@@ -1,12 +1,8 @@
-/* .sec-diorama {
-  background-color: var(--colorfondomaiz);
-  margin-top: 400px;
-} */
-diagonal-section2 {
-  background-color: var(--colorfondonaranja);
+.sections {
+  margin: 0;
 }
-diagonal-section3 {
-  background-color: var(--colorfondogranate);
+.sec-diorama {
+  margin-bottom: 0;
 }
 @media (max-width: 768px) {
   .diagonal-section1, .diagonal-section2, .diagonal-section3 {
