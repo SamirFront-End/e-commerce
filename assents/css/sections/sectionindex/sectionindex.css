@@ -4,6 +4,93 @@
 .sec-diorama {
   margin-bottom: 0;
 }
+.diagonal-section1, .diagonal-section3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.diagonal-section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+#h1-3d {
+  left: 19%;
+}
+#intro-3d {
+  right:56.3% ;
+  text-align: right;
+}
+#btn-cat-3d {
+  background-color: var(--colortres);
+  left: 14%;
+}
+#btn-cat-3d:hover {
+  background-color: #d85c0f;
+}
+.img-home-div {
+  width: 55%;
+  position: relative;
+}
+.img-sec-home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  filter: blur(2px);
+}
+.img-sec-home:hover {
+  filter: blur(0px);
+}
+.h1-home {
+  position: absolute;
+  font-size: 400%;
+  font-weight: bolder;
+  top: 30%;
+  margin-left: 1%;
+}
+
+.intro-home {
+  position: absolute;
+  font-size: 140%;
+  font-weight: bolder;
+  top: 37%;
+  text-align: left;
+  margin-left: 1%;
+}
+.more {
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  border: none;
+  top: 69%;
+  left: 56%;
+  font-size: 120%;
+  font-weight: bolder;
+  color: var(--colorcinco);
+  cursor: pointer;
+}
+#btn-cat-diorama {
+  background-color: var(--coloruno);
+}
+#btn-cat-diorama:hover {
+  background-color: #e5a74b;
+}
+#btn-cat-fuente {
+  background-color: var(--colordos);
+}
+#btn-cat-fuente:hover{
+  background-color: #6b3b26;
+}
+#section-diorama {
+  background-color: var(--colorfondomaiz);
+}
+#section-3d {
+  background-color: var(--colorfondonaranja);
+}
+#section-fuente {
+  background-color: var(--colorfondogranate);
+}
 @media (max-width: 768px) {
   .diagonal-section1, .diagonal-section2, .diagonal-section3 {
     display: flex;
@@ -11,7 +98,7 @@
     position: relative;
   }
   .img-home-div {
-    /* width: 90%; */
+    width: 100%;
     position: relative;
   }
   .img-sec-home {
@@ -24,14 +111,21 @@
     font-size: 500%;
     font-weight: bolder;
     top: 30%;
-    color: var(--colorcinco);
+    /* color: var(--colorcinco); */
+  }
+  #h1-3d {
+    left: 0%;
+  }
+  #intro-3d {
+    right:3% ;
+    text-align: left;
   }
   .intro-home {
     position: absolute;
     font-size: 140%;
     font-weight: bolder;
     top: 40%;
-    color: var(--colorcinco);
+    /* color: var(--colorcinco); */
     text-align: left;
     margin-left: 1%;
   }
@@ -52,6 +146,7 @@
   }
   #btn-cat-3d {
     background-color: var(--colortres);
+    left: 33%;
   }
   #btn-cat-fuente {
     background-color: var(--colordos);
